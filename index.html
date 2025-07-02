@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ignacy Bartnik – AI Demo Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #f9f9f9 0%, #e9e9f3 100%);
+            min-height: 100vh;
+        }
+        main {
+            max-width: 600px;
+            margin: 3em auto 0 auto;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 4px 32px 0 rgba(44,62,80,0.10);
+            padding: 2.5em 2em 2em 2em;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.2em;
+            margin-bottom: 0.3em;
+            letter-spacing: -1px;
+        }
+        p {
+            color: #444;
+            font-size: 1.1em;
+        }
+        .demo-list {
+            list-style: none;
+            padding: 0;
+            margin: 2em 0 1em 0;
+        }
+        .demo-list li {
+            margin: 1.5em 0;
+            background: #f4f6fa;
+            border-radius: 12px;
+            box-shadow: 0 1px 6px 0 rgba(44,62,80,0.04);
+            padding: 1.2em 1.5em;
+            transition: box-shadow 0.2s, transform 0.2s;
+        }
+        .demo-list li:hover {
+            box-shadow: 0 4px 16px 0 rgba(44,62,80,0.10);
+            transform: translateY(-2px) scale(1.01);
+        }
+        .demo-title {
+            font-weight: 600;
+            font-size: 1.15em;
+            color: #1a237e;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .demo-title:hover {
+            color: #3949ab;
+            text-decoration: underline;
+        }
+        .demo-desc {
+            color: #555;
+            font-size: 0.98em;
+            margin-top: 0.2em;
+            display: block;
+        }
+        .footer {
+            margin-top: 2.5em;
+            color: #888;
+            font-size: 0.95em;
+            text-align: center;
+            padding-bottom: 1.5em;
+        }
+        .footer a {
+            color: #1a237e;
+            text-decoration: none;
+            border-bottom: 1px dotted #3949ab;
+            transition: color 0.2s, border-bottom 0.2s;
+        }
+        .footer a:hover {
+            color: #3949ab;
+            border-bottom: 1px solid #3949ab;
+        }
+        @media (max-width: 700px) {
+            main {
+                max-width: 98vw;
+                margin: 1.5em 1vw 0 1vw;
+                padding: 1.2em 0.5em 1.2em 0.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Ignacy Bartnik – AI Demo Portfolio</h1>
+        <p>Welcome! Explore my AI/ML demo projects below. Each demo is a static HTML page—no setup required.</p>
+        <ul class="demo-list">
+            <li>
+                <a class="demo-title" href="rag_demo.html">RAG Demo</a><br>
+                <span class="demo-desc">A simple Retrieval-Augmented Generation system in Python, demonstrating vector search, reranking, and LLM-based answering.</span>
+            </li>
+            <li>
+                <a class="demo-title" href="another_demo.html">Another Demo</a><br>
+                <span class="demo-desc">Short description of your second demo project.</span>
+            </li>
+            <li>
+                <a class="demo-title" href="third_demo.html">Third Demo</a><br>
+                <span class="demo-desc">Short description of your third demo project.</span>
+            </li>
+        </ul>
+    </main>
+    <div class="footer">
+        &copy; 2025 Ignacy Bartnik &mdash; <a href="https://github.com/IgnacyBartnik">GitHub</a>
+    </div>
+</body>
+</html>
